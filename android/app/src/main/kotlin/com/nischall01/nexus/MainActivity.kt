@@ -1,4 +1,4 @@
-package com.nischall01.test_record
+package com.nischall01.nexus
 
 import io.flutter.embedding.android.FlutterActivity
 

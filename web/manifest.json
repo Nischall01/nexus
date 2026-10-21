@@ -1,11 +1,11 @@
 {
-    "name": "test_record",
-    "short_name": "test_record",
+    "name": "Nexus",
+    "short_name": "Nexus",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Nexus - Issue Tracker and Project Management Platform.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

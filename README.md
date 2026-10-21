@@ -1,6 +1,6 @@
-# test_record
+# Nexus
 
-A new Flutter project.
+Issue Tracker & Project Management app built with Flutter.
 
 ## Getting Started
 

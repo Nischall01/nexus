@@ -12,16 +12,16 @@ void main() {
   WidgetsFlutterBinding.ensureInitialized();
   sqfliteFfiInit();
   databaseFactory = databaseFactoryFfi;
-  runApp(const IssueTrackerApp());
+  runApp(const NexusApp());
 }
 
-class IssueTrackerApp extends StatelessWidget {
-  const IssueTrackerApp({super.key});
+class NexusApp extends StatelessWidget {
+  const NexusApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Mobile App Issue Tracker',
+      title: 'Nexus',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
@@ -123,7 +123,7 @@ class _HomeShellState extends State<HomeShell> {
                       ),
                       const SizedBox(height: 4),
                       Text(
-                        'Tracker',
+                        'Nexus',
                         style: Theme.of(context).textTheme.labelMedium,
                       ),
                     ],
